@@ -150,7 +150,12 @@ footer a {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-@media (max-width: 960px) {
+.first-grid-image {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
   header {
     padding: 60px 0;
   }
@@ -167,5 +172,14 @@ footer a {
   header a {
     font-size: 7px;
     padding: 8px 15px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
