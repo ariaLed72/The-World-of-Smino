@@ -1,8 +1,10 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: radial-gradient(rgb(255, 161, 40) 48%, rgb(251, 228, 195) 80%);
+  background: radial-gradient(rgb(252, 235, 115) 53%, rgb(241, 136, 102) 92%);
   background-repeat: no-repeat;
   background-size: auto;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
@@ -13,7 +15,7 @@ header {
   background-size: cover;
   text-align: center;
   color: white;
-  padding: 200px;
+  padding: 100px;
 }
 
 header h1 {
