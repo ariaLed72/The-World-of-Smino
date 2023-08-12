@@ -68,6 +68,7 @@ main h2 {
   opacity: 0.3;
   text-transform: uppercase;
   margin: 0;
+  display: block;
 }
 
 main h3 {
@@ -97,9 +98,24 @@ footer {
 }
 
 section {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
 }
 
 footer h3 {
@@ -152,9 +168,57 @@ footer a {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-.first-grid-image {
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-responsive {
   width: 100%;
   height: auto;
+  display: block;
+  margin: 70px 15px;
+}
+
+.first-grid-info {
+  display: block;
+  margin: 70px 15px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+  box-shadow: 1px 3px 3px lightgray;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+  padding: 16px;
 }
 
 @media (max-width: 900px) {
