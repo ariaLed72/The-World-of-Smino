@@ -218,7 +218,21 @@ section.secondary {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
-  padding: 16px;
+}
+
+.song {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 21/9;
 }
 
 @media (max-width: 900px) {
@@ -247,5 +261,79 @@ section.secondary {
 
   section {
     padding: 30px;
+  }
+  main h2 {
+    font-size: 8px;
+  }
+
+  main h3 {
+    font-size: 20px;
+  }
+
+  main p {
+    font-size: 11px;
+  }
+
+  main h4 {
+    font-size: 12px;
+  }
+
+  main h5 {
+    font-size: 7px;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 15px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .img-responsive {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .first-grid-info {
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 25px;
+  }
+
+  footer h3 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 7px;
+    display: block;
+  }
+
+  footer p {
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  footer ul {
+    padding: 0;
+    display: block;
+  }
+
+  footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  footer {
+    padding: 20px 0;
   }
 }
