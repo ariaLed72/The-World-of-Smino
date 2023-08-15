@@ -177,6 +177,7 @@ footer a {
   height: auto;
   display: block;
   margin: 70px 15px;
+  filter: blur(-7px) hue-rotate(10deg);
 }
 
 .first-grid-info {
@@ -233,6 +234,25 @@ section.secondary {
 iframe {
   width: 100%;
   aspect-ratio: 21/9;
+}
+
+.fourth-section {
+  background: #f8f8f8;
+}
+
+table {
+  margin-top: 70px;
+  border: 1px solid lightgray;
+  width: 100%;
+  text-align: center;
+}
+
+td {
+  border-top: 1px solid lightgrey;
+}
+
+thead {
+  background-color: lightgoldenrodyellow;
 }
 
 @media (max-width: 900px) {
@@ -301,6 +321,13 @@ iframe {
     margin: 0 auto;
     margin-top: -30px;
     margin-bottom: 25px;
+  }
+  table {
+    margin-top: 35px;
+  }
+
+  table.container {
+    overflow-x: auto;
   }
 
   footer h3 {
